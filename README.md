@@ -1,5 +1,5 @@
 # Scrapbook Boilerplate
-An HTML5 Boilerplate
+An HTML5 Boilerplate with a minimalist scrapbook aesthetic
 
 ## What is this?
 This is a boilerplate setup for a basic HTML5, CSS3, and Javascript webpage.
@@ -11,13 +11,13 @@ Converting the base html file to an embedded-language file (ERB, EJS, etc) shoul
 This file contains 3 main files that are integral to the boilerplate:
 
 * `boilerplate.html` - The main html file
-* `minimalscrap.css` - Styling (contains the !important flag to overwrite bootstrap)
+* `scrapbook.css` - Styling (contains the !important flag to overwrite bootstrap)
 * `menu.js` - The hamburger menu interaction file
 
 In addition, this boilerplate is set up for [bootstrap](http://getbootstrap.com/),
 [jQuery](https://jquery.com/), and [Font Awesome](http://fontawesome.io/).
 
-If you want/need additional font icons, like those included the [skills page of my site](http://xjcoan.com/skills.hmtl), I'd recommend you'd check out [Font Mfizz](http://fizzed.com/oss/font-mfizz).
+If you want/need additional font icons, like those included the [skills page of my site](http://xjcoan.com/skills.html), I'd recommend you'd check out [Font Mfizz](http://fizzed.com/oss/font-mfizz).
 
 Note: I have no affiliation with Bootstrap, jQuery, Font Awesome, or Font Mfizz.  I simply admire their work 👍.
 
