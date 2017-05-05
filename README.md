@@ -10,7 +10,7 @@ Converting the base html file to an embedded-language file (ERB, EJS, etc) shoul
 ## What's included?
 This file contains 3 main files that are integral to the boilerplate:
 
-* `boilerplate.html` - The main html file
+* `index.html` - The main html file
 * `scrapbook.css` - Styling (contains the !important flag to overwrite bootstrap)
 * `menu.js` - The hamburger menu interaction file
 
