@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minimalist Scrapbook Boilerplate</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="scrapbook.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="fontawesome/css/font-awesome.min.css"> <!-- Font-awesome -->
+    <script src="menu.js"></script> <!-- Hamburger menu interaction -->
+  </head>
+
+  <body>
+    <div class="outer">
+      <div class="main">
+        <div class="pane">
+
+          <!-- #Your Content Here -->
+
+          <!-- Content for the top of page. Only needed for hamburger menu -->
+          <div class="top">
+            <div class="menubutton">
+              <span class="glyphicon glyphicon-menu-hamburger" aria-hidden="true" id="menuicon"></span>
+            </div>
+            <nav id="menu">
+              <ul>
+                <li><a href="#">Link-To-Your-Page</a></li>
+              </ul>
+            </nav>
+          </div>
+
+          <!-- Your main content goes here, pre-styled for bootstrap -->
+          <div class="container">
+            <h1>Your Content Here</h1>
+            <hr />
+            <p>Enjoy the boilerplate!</p>
+          </div>
+
+          <!-- Navigation arrows between sequential pages -->
+          <div class="bottom">
+            <div class="leftarrow">
+              <a href="#"><i class="fa fa-arrow-left fa-2x" aria-hidden="true"></i></a>
+            </div>
+            <div class="rightarrow" id="arrow">
+              <a href="#"><i class="fa fa-arrow-right fa-2x" aria-hidden="true"></i></a>
+            </div>
+          </div>
+
+          <!-- End of your content -->
+
+        </div> <!-- pane -->
+      </div> <!-- main -->
+    </div> <!-- outer -->
+  </body>
+</html>
