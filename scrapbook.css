@@ -96,10 +96,20 @@ hr:after {
 }
 
 .bottom a i {
-  font-size: 3em!important;
+  font-size: 2.5em!important;
 }
 .bottom a i:hover {
   color: inherit!important;
+}
+
+.bottom .leftarrow {
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.bottom .rightarrow {
+  margin-right: 10px;
+  margin-bottom: 5px;
 }
 
 .top {
@@ -107,8 +117,10 @@ hr:after {
   position: absolute;
 }
 
-.top .glyphicon {
-  font-size: 2em;
+.menubutton i.fas#menuicon {
+  font-size: 3em!important;
+  margin-left: 10px;
+  margin-top: 10px;
 }
 
 #menu {

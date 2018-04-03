@@ -15,12 +15,6 @@ This file contains 3 main files that are integral to the boilerplate:
 * `scrapbook.css` - Styling (contains the !important flag to overwrite bootstrap)
 * `menu.js` - The hamburger menu interaction file
 
-In addition, this boilerplate is set up for [bootstrap](http://getbootstrap.com/),
-[jQuery](https://jquery.com/), and [Font Awesome](http://fontawesome.io/).
-
-If you want/need additional font icons, I'd recommend you'd check out [Font Mfizz](http://fizzed.com/oss/font-mfizz).
-
-Note: I have no affiliation with Bootstrap, jQuery, Font Awesome, or Font Mfizz.  I simply admire their work 👍.
-
-## Can I use this?
-Absolutely.  There's an MIT-license, so have at it!
+### Versioning Info
+As of April 3rd, 2018, this project uses JQuery 3.2.1, Bootstrap 4.0, Font Awesome 5.0.9
+and all related dependencies.

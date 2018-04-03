@@ -2,12 +2,14 @@ $(function() {
   var visible = false;
   $('#menuicon').click(function() {
     if (visible) {
-      $('.glyphicon-remove').toggleClass('glyphicon-remove glyphicon-menu-hamburger');
+      $('#menuicon').toggleClass('fa-times fa-bars');
+      console.log("newhit");
       $('#menu').css({'display':'none'});
       visible = false;
       return;
     }
-    $('.glyphicon-menu-hamburger').toggleClass('glyphicon-menu-hamburger glyphicon-remove');
+    $('#menuicon').toggleClass('fa-bars fa-times');
+    console.log('hit');
     $('#menu').css({'display':'block'});
     visible = true;
   });
